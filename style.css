@@ -49,12 +49,11 @@ img{
     margin-top: 0.1rem;
     display: grid;
     gap: 0.2rem;
-    width: 100%;
 }
 
 .email{
-  width: 93%;
-    padding:0.8rem;
+    width: 300px;
+    padding:0.9rem;
     padding-left: 1rem;
     font-size:1rem;
     border: 2px solid var(--secondaryclr-1);
@@ -153,7 +152,7 @@ footer{
     color: var(--secondaryclr-2);
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px){
    .section .container{
         max-width: 70vw;
     }
@@ -163,8 +162,8 @@ footer{
     column-gap: 0.7rem;
 }
 
-#email{
-    width:95%;
+.email{
+    width: 100%;
     padding:0.8rem;
     padding-left: 1rem;
 }
@@ -178,10 +177,17 @@ footer{
 
 #btn{
     padding:0.8rem;
+    width: 100%;
 }
 
 .footer{
     margin-top: 3rem;
 }
 
+}
+
+@media screen and (min-width: 450px){
+.email{
+    width: 420px;
+}
 }
